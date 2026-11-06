@@ -1,0 +1,23 @@
+name: agentretro-core
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=24.2
+  - pytorch=2.4.1
+  - pytorch-cuda=12.1
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - pyarrow=17.0.0
+  - scipy=1.13.1
+  - scikit-learn=1.5.2
+  - rdkit=2023.09.6
+  - pip:
+      - accelerate==1.10.1
+      - autoawq==0.2.9
+      - huggingface-hub==0.36.2
+      - rdchiral==1.1.0
+      - torch-geometric==2.3.1
+      - transformers==4.51.3
